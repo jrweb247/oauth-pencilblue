@@ -1,0 +1,59 @@
+{
+  "uid": "oauth-pencilblue",
+  "name": "oauth-pencilblue",
+  "description": "A pencilblue plugin to authenticate with google and facebook account",
+  "version": "0.1.0",
+  "author": {
+    "name": "julien Rousseau",
+    "email": "jrweb247@jrweb.fr",
+    "contributors": [
+      {
+        "name": "julien Rousseau",
+        "email": "jrweb247@jrweb.fr"
+      }
+    ]
+  },
+  "settings": [
+    {
+      "name": "google_oauth_enable",
+      "value": false
+    },
+    {
+      "name": "google_client_id",
+      "value": ""
+    },
+    {
+      "name": "google_client_secret",
+      "value": ""
+    },
+    {
+      "name": "google_oauth_wording",
+      "value": "Sign in with Google"
+    },
+    {
+      "name": "facebook_oauth_enable",
+      "value": false
+    },
+    {
+      "name": "facebook_client_id",
+      "value": ""
+    },
+    {
+      "name": "facebook_client_secret",
+      "value": ""
+    },
+    {
+      "name": "facebook_oauth_wording",
+      "value": "Sign in with Facebook"
+    }
+  ],
+  "permissions": {
+    "ACCESS_USER": [],
+    "ACCESS_WRITER": [],
+    "ACCESS_EDITOR": [],
+    "ACCESS_MANAGING_EDITOR": []
+  },
+  "main_module": {
+    "path": "oauth.js"
+  }
+}
